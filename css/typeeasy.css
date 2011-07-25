@@ -1,0 +1,330 @@
+body {
+    cursor: default;
+    font-size: 12px;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
+
+#page {
+    margin: 0 auto;
+    width: 540px;
+    height: 335px;
+    text-align: left;
+    background: url(../img/bg.png) no-repeat;
+}
+
+#header {
+    padding: 25px 80px 25px 0;
+    height: 15px;
+    text-align: right;
+}
+
+#container {
+    height: 270px;
+    overflow: hidden;
+}
+
+#start {
+    padding: 10px 0 0 0;
+    height: 260px;
+}
+
+.btns {
+    height: 225px;
+    text-align: center;
+}
+
+.link {
+    text-align: right;
+    height: 35px;
+    background: url(../img/bg_link.png) repeat-x;
+}
+
+#practice {
+    display: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+    height: 260px;
+    background: url(../img/bg_practice.png) no-repeat;
+}
+
+#panelResult {
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    width: 490px;
+    height: 43px;
+    line-height: 43px;
+}
+
+#panelResult .time {
+    position: absolute;
+    top: 13px;
+    left: 88px;
+    width: 48px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#panelResult .speed {
+    position: absolute;
+    top: 13px;
+    left: 250px;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#panelResult .rate {
+    position: absolute;
+    top: 13px;
+    left: 425px;
+    width: 48px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#panelExam {
+    margin: 0 auto;
+    width: 490px;
+    height: 200px;
+}
+
+#panelExam .line {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6px;
+    width: 470px;
+    height: 52px;
+    border: 1px solid #ADACAC;
+    background-color: #fff;
+}
+
+#panelExam p {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    margin: 0 1px;
+    height: 26px;
+    line-height: 26px;
+}
+
+#panelExam input {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    margin: 0 auto;
+    width: 468px;
+    height: 23px;
+    background-color: #FFE080;
+    border: 0;
+}
+
+#panelFinish {
+    display: none;
+    margin: 0 auto;
+    width: 490px;
+    height: 200px;
+}
+
+#panelFinish .result {
+    font-family: 'Microsoft Yahei', serif;
+    font-size: 20px;
+    color: #A0182F;
+    text-align: left;
+    padding: 5px 5px 0 50px;
+    height: 70px;
+    line-height: 32px;
+}
+
+#panelFinish .clipboard {
+    float: left;
+    height: 120px;
+    padding-left: 50px;
+}
+
+#panelFinish .clipboard .clipboardText {
+    width: 165px;
+    height: 95px;
+    line-height: 18px;
+    text-align: left;
+    resize: none;
+}
+
+#panelFinish .button {
+    float: left;
+    height: 120px;
+    padding-left: 30px;
+}
+
+#panelFinish .download {
+    padding: 0;
+}
+
+#panelFinish .clip {
+    padding: 8px 0 2px 10px;
+    font-family: 'Microsoft Yahei', serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 14px;
+    line-height: 14px;
+    color: #000;
+    text-align: left;
+}
+
+#panelFinish .share {
+    padding-left: 10px;
+    font-family: 'Microsoft Yahei', serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    color: #000;
+    text-align: left;
+}
+
+#btnChinese {
+    display: inline-block;
+    width: 161px;
+    height: 173px;
+    background: url(../img/btn_exam.png) no-repeat;
+    background-position: 0 top;
+}
+
+#btnChinese:hover {
+    background-position: 0 bottom;
+}
+
+#btnChinese:active {
+    background-position: 0 top;
+}
+
+#btnEnglish {
+    display: inline-block;
+    width: 161px;
+    height: 173px;
+    background: url(../img/btn_exam.png) no-repeat;
+    background-position: -161px top;
+}
+
+#btnEnglish:hover {
+    background-position: -161px bottom;
+}
+
+#btnEnglish:active {
+    background-position: -161px top;
+}
+
+#btnChineseEnglish {
+    display: inline-block;
+    width: 161px;
+    height: 173px;
+    background: url(../img/btn_exam.png) no-repeat;
+    background-position: -322px top;
+}
+
+#btnChineseEnglish:hover {
+    background-position: -322px bottom;
+}
+
+#btnChineseEnglish:active {
+    background-position: -322px top;
+}
+
+#btnDownload {
+    margin: 7px 35px 0 0;
+    display: inline-block;
+    width: 199px;
+    height: 21px;
+    background: url(../img/btn_download.png) no-repeat;
+}
+
+#btnBack {
+    display: inline-block;
+    width: 63px;
+    height: 15px;
+    background: url(../img/btn.png) no-repeat;
+    background-position: 0 0;
+}
+
+#btnBack:hover {
+    background-position: 0 -15px;
+}
+
+#btnBack:active {
+    background-position: 0 -30px;
+}
+
+#btnSubmit {
+    display: inline-block;
+    width: 63px;
+    height: 15px;
+    background: url(../img/btn.png) no-repeat;
+    background-position: 0 -45px;
+}
+
+#btnSubmit:hover {
+    background-position: 0 -60px;
+}
+
+#btnSubmit:active {
+    background-position: 0 -75px;
+}
+
+#btnRestart {
+    display: inline-block;
+    width: 90px;
+    height: 15px;
+    background: url(../img/btn.png) no-repeat;
+    background-position: 0 -90px;
+}
+
+#btnRestart:hover {
+    background-position: 0 -105px;
+}
+
+#btnRestart:active {
+    background-position: 0 -120px;
+}
+
+#btnTypeeasy {
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+    height: 57px;
+    background: url(../img/btn_typeeasy.png) no-repeat;
+    background-position: left top;
+}
+
+#btnTypeeasy:hover {
+    background-position: left bottom;
+}
+
+#btnClipboard {
+    font-family: 'Microsoft Yahei', serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+#iconSina {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/icon_sina.png) no-repeat;
+    vertical-align: middle;
+}
+
+#iconTencent {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/icon_tencent.png) no-repeat;
+    vertical-align: middle;
+}
+
+.zclip {
+    line-height: 0;
+}
