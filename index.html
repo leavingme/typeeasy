@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>金山快快打字通 2011</title>
+<meta name="application-name" content="金山快快打字通 2011" />
+<meta name="msapplication-tooltip" content="金山打字通官方出品的在线打字测试工具，提供中文和英文测试，根据用户打字速度与正确率进行打分，打字水平，一测了然，还能在微博上晒得分哦。" />
+<meta name="msapplication-window" content="width=540;height=335"/>
+<meta name="msapplication-task" content="name=中文打字;action-uri=http://typeeasy.kingsoft.com/;icon-uri=http://typeeasy.kingsoft.com/favicon.ico"/>
+<meta name="msapplication-task" content="name=英文打字;action-uri=http://typeeasy.kingsoft.com/;icon-uri=http://typeeasy.kingsoft.com/favicon.ico"/>
+<meta name="msapplication-task" content="name=中英文打字;action-uri=http://typeeasy.kingsoft.com/;icon-uri=http://typeeasy.kingsoft.com/favicon.ico"/>
+<link href="http://typeeasy.kingsoft.com/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.textchange.min.js"></script>
+<script type="text/javascript" src="js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="js/typeeasy.js"></script>
+<link href="css/reset-min.css" rel="stylesheet" type="text/css">
+<link href="css/typeeasy.css" rel="stylesheet" type="text/css">
+</head>
+<!-- onselectstart="return window.event.srcElement.nodeName == 'INPUT';" ondragstart="return false;" -->
+<body onselectstart="return window.event.srcElement.nodeName == 'INPUT';" ondragstart="return false;">
+<div id="page">
+  <div id="header"> <a id="btnBack" href="javascript:;"></a> <a id="btnSubmit" href="javascript:;"></a> <a id="btnRestart" href="javascript:;"></a> </div>
+  <div id="container">
+    <div id="start">
+      <div class="btns"> <a id="btnChinese" href="javascript:;"></a> <a id="btnEnglish" href="javascript:;"></a> <a id="btnChineseEnglish" href="javascript:;"></a> </div>
+      <div class="link"> <a id="btnDownload" href="http://typeeasy.kingsoft.com/" target="_blank" title="免费下载最新版打字通"></a> </div>
+    </div>
+    <div id="practice">
+      <div id="panelResult">
+        <div class="time"></div>
+        <div class="speed"></div>
+        <div class="rate"></div>
+      </div>
+      <div id="panelExam">
+        <div class="line">
+          <p id="line1"></p>
+          <input id="text1" name="" type="text">
+        </div>
+        <div class="line">
+          <p id="line2"></p>
+          <input id="text2" name="" type="text">
+        </div>
+        <div class="line">
+          <p id="line3"> </p>
+          <input id="text3" name="" type="text">
+        </div>
+      </div>
+      <div id="panelFinish">
+        <div class="result"></div>
+        <div class="clipboard">
+          <textarea class="clipboardText" readonly></textarea>
+        </div>
+        <div class="button">
+          <div class="share"><span>分享成绩到微博：</span> <a id="iconSina" href="javascript:;" target="_blank"></a> <a id="iconTencent" href="javascript:;" target="_blank"></a> </div>
+		  <div class="clip"><a id="btnClipboard" href="javascript:;">复制到剪贴板</a></div>
+		  <div class="download"><a id="btnTypeeasy" href="http://typeeasy.kingsoft.com/" target="_blank"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="debug"></div>
+</body>
+</html>
